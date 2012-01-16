@@ -7,9 +7,11 @@ source "http://rubygems.org"
 # bundler version on Heroku is upgraded
 gem "rack",          ">= 1.0.1"
 gem "rest-client",   ">= 1.4.0", "< 1.7.0"
+
+
 gem "sequel",        "~> 3.20.0"
-gem "sinatra"      
-gem "sqlite3-ruby" 
+gem "sinatra"
+gem "sqlite3-ruby" , "~> 1.2"
 
 group :development do
   gem "bacon"
